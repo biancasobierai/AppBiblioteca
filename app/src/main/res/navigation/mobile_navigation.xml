@@ -27,4 +27,9 @@
         android:name="br.com.biancasobierai.biblioteca.CadUsuarioFragment"
         android:label="@string/title_cad_usuario"
         tools:layout="@layout/fragment_cad_usuario" />
+    <fragment
+        android:id="@+id/cadLivroFragment"
+        android:name="br.com.biancasobierai.biblioteca.CadLivroFragment"
+        android:label="fragment_cad_livro"
+        tools:layout="@layout/fragment_cad_livro" />
 </navigation>

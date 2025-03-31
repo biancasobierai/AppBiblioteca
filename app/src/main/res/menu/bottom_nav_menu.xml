@@ -21,4 +21,9 @@
         android:icon="@android:drawable/ic_menu_sort_by_size"
         android:title="@string/title_cad_usuario" />
 
+    <item
+        android:id="@+id/navigation_cad_livro"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/title_cad_livro" />
+
 </menu>
