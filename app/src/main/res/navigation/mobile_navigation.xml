@@ -22,4 +22,9 @@
         android:name="br.com.biancasobierai.biblioteca.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_cad_usuario"
+        android:name="br.com.biancasobierai.biblioteca.CadUsuarioFragment"
+        android:label="@string/title_cad_usuario"
+        tools:layout="@layout/fragment_cad_usuario" />
 </navigation>
