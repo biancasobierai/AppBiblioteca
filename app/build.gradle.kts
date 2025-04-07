@@ -1,7 +1,3 @@
-plugins {
-    alias(libs.plugins.android.application)
-}
-
 android {
     namespace = "br.com.biancasobierai.biblioteca"
     compileSdk = 34
@@ -43,6 +39,10 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.ktx)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.volley)
+    implementation(libs.support.annotations)
+    implementation(libs.legacy.support.v4)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

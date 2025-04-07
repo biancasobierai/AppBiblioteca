@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.volley.Response;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link CadUsuarioFragment#newInstance} factory method to

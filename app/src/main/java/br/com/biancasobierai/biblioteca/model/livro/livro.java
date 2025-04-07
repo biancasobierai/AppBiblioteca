@@ -1,9 +1,9 @@
 package br.com.biancasobierai.biblioteca.model.livro;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import org.json.JSONException;
+import org.json.JSONObject;
 
-public class Livro {
+class livro {
     private int id;
     private String nome;
     private String editora;
@@ -26,3 +26,4 @@ public class Livro {
     public void setTradutor(String tradutor) {this.tradutor = tradutor;}
 
 }
+
